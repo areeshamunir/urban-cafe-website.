@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Urban Sip | Services</title>
+  <link rel="stylesheet" href="services.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <a href="index.html" class="logo">
+      <span class="logo-icon">&#9749;</span>Urban Sip<span class="dot">.</span>
+    </a>
+
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="media.html">Media</a>
+      <a href="register.html">Register</a>
+      <a href="services.html" class="active">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <a href="contact.html" class="btn-dark">Visit us &#8599;</a>
+  </header>
+
+  <main class="container">
+
+    <!-- ===== INTRO ===== -->
+    <section class="page-intro">
+      <p class="eyebrow">More than a great cup</p>
+      <h1>Good things, thoughtfully served.</h1>
+      <p class="intro-text">
+        Your morning coffee, a new skill, or a moment together.
+        We've got a little something for you.
+      </p>
+    </section>
+
+    <!-- ===== SERVICE CARDS (flexbox) ===== -->
+    <section class="card-list">
+
+      <article class="service-card">
+        <img src="images/service-coffee.jpg" alt="Latte with heart art in a cup">
+        <div class="card-body">
+          <p class="eyebrow">Your daily ritual</p>
+          <h2>Specialty coffee</h2>
+          <p class="card-text">From bold espresso to a silky latte, find your favorite cup, crafted with care.</p>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <img src="images/service-bakery.jpg" alt="Fresh croissants and pistachio pastries">
+        <div class="card-body">
+          <p class="eyebrow">A little indulgence</p>
+          <h2>Fresh from the oven</h2>
+          <p class="card-text">Flaky pastries, sweet treats, and fresh bites. The perfect company for your coffee.</p>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <img src="images/service-workshop.jpg" alt="Barista pouring steamed milk">
+        <div class="card-body">
+          <p class="eyebrow">Learn the craft</p>
+          <h2>Coffee workshops</h2>
+          <p class="card-text">Get behind the bar. Discover brewing techniques and the art of a beautiful pour.</p>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <img src="images/service-space.jpg" alt="Cozy cafe seating with plants">
+        <div class="card-body">
+          <p class="eyebrow">Make yourself at home</p>
+          <h2>Space to connect</h2>
+          <p class="card-text">A warm setting for catch-ups, creative sessions, and your next small gathering.</p>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- ===== MENU ===== -->
+    <section class="svc-menu">
+
+      <div class="svc-menu-header">
+        <p class="eyebrow">Made for every moment</p>
+        <h2>Our menu.</h2>
+        <p class="svc-menu-note">Prices in Pakistani rupees &middot; Taxes included</p>
+      </div>
+
+      <!-- Tab bar -->
+      <div class="svc-tabs" role="tablist">
+        <button class="svc-tab active" data-target="svc-all">All</button>
+        <button class="svc-tab" data-target="svc-espresso">&#9749; Espresso</button>
+        <button class="svc-tab" data-target="svc-cold">&#10052; Cold &amp; Iced</button>
+        <button class="svc-tab" data-target="svc-other">&#127807; Not Coffee</button>
+        <button class="svc-tab" data-target="svc-bakery">&#127859; Bakery</button>
+      </div>
+
+      <!-- All categories -->
+      <div class="svc-panel active" id="svc-all">
+
+        <p class="svc-cat-label">&#9749; Espresso Bar</p>
+        <div class="svc-grid">
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Espresso</span><span class="svc-desc">A rich, balanced double shot</span></div><span class="svc-price">Rs. 450</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Americano</span><span class="svc-desc">Espresso, softened with hot water</span></div><span class="svc-price">Rs. 550</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Flat White</span><span class="svc-desc">Double espresso, velvety milk</span></div><span class="svc-price">Rs. 750</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Cappuccino</span><span class="svc-desc">Classic foam, dusted with cocoa</span></div><span class="svc-price">Rs. 700</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Caramel Latte</span><span class="svc-desc">Our signature sweet, smooth sip</span></div><span class="svc-price">Rs. 850</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Mocha</span><span class="svc-desc">Espresso, dark chocolate, steamed milk</span></div><span class="svc-price">Rs. 900</span></div>
+        </div>
+
+        <p class="svc-cat-label">&#10052; Cold &amp; Iced</p>
+        <div class="svc-grid">
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Cold Brew</span><span class="svc-desc">Steeped 18 hours, served over ice</span></div><span class="svc-price">Rs. 750</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Iced Latte</span><span class="svc-desc">Chilled espresso poured over milk</span></div><span class="svc-price">Rs. 800</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Iced Americano</span><span class="svc-desc">Bright, light, endlessly refreshing</span></div><span class="svc-price">Rs. 600</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Espresso Tonic</span><span class="svc-desc">Double shot over tonic and citrus</span></div><span class="svc-price">Rs. 800</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Caramel Frapp&eacute;</span><span class="svc-desc">Blended espresso, milk, ice, caramel</span></div><span class="svc-price">Rs. 950</span></div>
+        </div>
+
+        <p class="svc-cat-label">&#127807; Not Coffee</p>
+        <div class="svc-grid">
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Matcha Latte</span><span class="svc-desc">Stone-ground green tea, creamy milk</span></div><span class="svc-price">Rs. 850</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Masala Chai</span><span class="svc-desc">Slow-simmered with cardamom and clove</span></div><span class="svc-price">Rs. 550</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Turkish Coffee</span><span class="svc-desc">Finely ground, brewed in a copper pot</span></div><span class="svc-price">Rs. 650</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Hot Chocolate</span><span class="svc-desc">Melted dark chocolate, steamed milk</span></div><span class="svc-price">Rs. 700</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Rose Lemonade</span><span class="svc-desc">Floral, refreshing, lightly sparkling</span></div><span class="svc-price">Rs. 500</span></div>
+        </div>
+
+        <p class="svc-cat-label">&#127859; Bakery</p>
+        <div class="svc-grid">
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Butter Croissant</span><span class="svc-desc">Golden, flaky, freshly baked</span></div><span class="svc-price">Rs. 550</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Almond Croissant</span><span class="svc-desc">Toasted almonds, light icing</span></div><span class="svc-price">Rs. 650</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Pistachio Pastry</span><span class="svc-desc">A little sweet escape</span></div><span class="svc-price">Rs. 700</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Cinnamon Roll</span><span class="svc-desc">Brown butter icing, warm from the tray</span></div><span class="svc-price">Rs. 650</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Basque Cheesecake</span><span class="svc-desc">Burnt top, soft and creamy centre</span></div><span class="svc-price">Rs. 900</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Belgian Waffle</span><span class="svc-desc">Powdered sugar, warm berries</span></div><span class="svc-price">Rs. 750</span></div>
+        </div>
+
+      </div>
+
+      <!-- Espresso -->
+      <div class="svc-panel" id="svc-espresso">
+        <div class="svc-grid">
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Espresso</span><span class="svc-desc">A rich, balanced double shot</span></div><span class="svc-price">Rs. 450</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Americano</span><span class="svc-desc">Espresso, softened with hot water</span></div><span class="svc-price">Rs. 550</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Flat White</span><span class="svc-desc">Double espresso, velvety milk</span></div><span class="svc-price">Rs. 750</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Cappuccino</span><span class="svc-desc">Classic foam, dusted with cocoa</span></div><span class="svc-price">Rs. 700</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Caramel Latte</span><span class="svc-desc">Our signature sweet, smooth sip</span></div><span class="svc-price">Rs. 850</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Mocha</span><span class="svc-desc">Espresso, dark chocolate, steamed milk</span></div><span class="svc-price">Rs. 900</span></div>
+        </div>
+      </div>
+
+      <!-- Cold & iced -->
+      <div class="svc-panel" id="svc-cold">
+        <div class="svc-grid">
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Cold Brew</span><span class="svc-desc">Steeped 18 hours, served over ice</span></div><span class="svc-price">Rs. 750</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Iced Latte</span><span class="svc-desc">Chilled espresso poured over milk</span></div><span class="svc-price">Rs. 800</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Iced Americano</span><span class="svc-desc">Bright, light, endlessly refreshing</span></div><span class="svc-price">Rs. 600</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Espresso Tonic</span><span class="svc-desc">Double shot over tonic and citrus</span></div><span class="svc-price">Rs. 800</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Caramel Frapp&eacute;</span><span class="svc-desc">Blended espresso, milk, ice, caramel</span></div><span class="svc-price">Rs. 950</span></div>
+        </div>
+      </div>
+
+      <!-- Not coffee -->
+      <div class="svc-panel" id="svc-other">
+        <div class="svc-grid">
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Matcha Latte</span><span class="svc-desc">Stone-ground green tea, creamy milk</span></div><span class="svc-price">Rs. 850</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Masala Chai</span><span class="svc-desc">Slow-simmered with cardamom and clove</span></div><span class="svc-price">Rs. 550</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Turkish Coffee</span><span class="svc-desc">Finely ground, brewed in a copper pot</span></div><span class="svc-price">Rs. 650</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Hot Chocolate</span><span class="svc-desc">Melted dark chocolate, steamed milk</span></div><span class="svc-price">Rs. 700</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Rose Lemonade</span><span class="svc-desc">Floral, refreshing, lightly sparkling</span></div><span class="svc-price">Rs. 500</span></div>
+        </div>
+      </div>
+
+      <!-- Bakery -->
+      <div class="svc-panel" id="svc-bakery">
+        <div class="svc-grid">
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Butter Croissant</span><span class="svc-desc">Golden, flaky, freshly baked</span></div><span class="svc-price">Rs. 550</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Almond Croissant</span><span class="svc-desc">Toasted almonds, light icing</span></div><span class="svc-price">Rs. 650</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Pistachio Pastry</span><span class="svc-desc">A little sweet escape</span></div><span class="svc-price">Rs. 700</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Cinnamon Roll</span><span class="svc-desc">Brown butter icing, warm from the tray</span></div><span class="svc-price">Rs. 650</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Basque Cheesecake</span><span class="svc-desc">Burnt top, soft and creamy centre</span></div><span class="svc-price">Rs. 900</span></div>
+          <div class="svc-item"><div class="svc-item-left"><span class="svc-name">Belgian Waffle</span><span class="svc-desc">Powdered sugar, warm berries</span></div><span class="svc-price">Rs. 750</span></div>
+        </div>
+      </div>
+
+      <div class="svc-menu-cta">
+        <a href="contact.html" class="btn-dark">Book a table &#8599;</a>
+      </div>
+
+    </section>
+
+    <script>
+      document.querySelectorAll('.svc-tab').forEach(tab => {
+        tab.addEventListener('click', () => {
+          document.querySelectorAll('.svc-tab').forEach(t => t.classList.remove('active'));
+          document.querySelectorAll('.svc-panel').forEach(p => p.classList.remove('active'));
+          tab.classList.add('active');
+          document.getElementById(tab.dataset.target).classList.add('active');
+        });
+      });
+    </script>
+
+    <!-- ===== CALL TO ACTION ===== -->
+    <section class="cta">
+      <div class="cta-text">
+        <h2>Something special in mind?</h2>
+        <p>We'd love to be part of your next coffee moment.</p>
+      </div>
+      <a href="contact.html" class="btn-dark">Let's talk &#8599;</a>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <span class="logo-icon">&#9749;</span>Urban Sip<span class="dot">.</span>
+        </a>
+        <p>Good coffee. Better company.</p>
+      </div>
+
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="media.html">Media</a>
+        <a href="register.html">Register</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <a href="#" class="footer-social">Instagram &#8599;</a>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Urban Sip. All rights reserved.</p>
+      <p>Crafted with care. Served with a smile.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
